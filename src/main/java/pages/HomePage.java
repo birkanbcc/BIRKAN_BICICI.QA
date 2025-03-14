@@ -14,7 +14,7 @@ public class HomePage {
     }
 
     public void goToCareersPage() {
-        driver.findElement(companyMenu).click(); // Company menüsüne tıkla
-        driver.findElement(careersLink).click(); // Careers linkine tıkla
+        driver.findElement(companyMenu).click();
+        driver.findElement(careersLink).click(); 
     }
 }
